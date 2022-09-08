@@ -1,0 +1,14 @@
+D:\Source Code\C#\TempConverter (UI)\TempConverter (UI)\bin\Debug\TempConverter (UI).exe.config
+D:\Source Code\C#\TempConverter (UI)\TempConverter (UI)\bin\Debug\TempConverter (UI).exe
+D:\Source Code\C#\TempConverter (UI)\TempConverter (UI)\bin\Debug\TempConverter (UI).pdb
+D:\Source Code\C#\TempConverter (UI)\TempConverter (UI)\obj\Debug\TempConverter (UI).csprojAssemblyReference.cache
+D:\Source Code\C#\TempConverter (UI)\TempConverter (UI)\obj\Debug\TempConverter__UI_.Form1.resources
+D:\Source Code\C#\TempConverter (UI)\TempConverter (UI)\obj\Debug\TempConverter__UI_.Properties.Resources.resources
+D:\Source Code\C#\TempConverter (UI)\TempConverter (UI)\obj\Debug\TempConverter (UI).csproj.GenerateResource.cache
+D:\Source Code\C#\TempConverter (UI)\TempConverter (UI)\obj\Debug\TempConverter (UI).csproj.CoreCompileInputs.cache
+D:\Source Code\C#\TempConverter (UI)\TempConverter (UI)\obj\Debug\TempConverter (UI).exe
+D:\Source Code\C#\TempConverter (UI)\TempConverter (UI)\obj\Debug\TempConverter (UI).pdb
+D:\Source Code\C#\TempConverter (UI)\TempConverter (UI)\bin\Debug\TempConverter (UI).exe.manifest
+D:\Source Code\C#\TempConverter (UI)\TempConverter (UI)\bin\Debug\TempConverter (UI).application
+D:\Source Code\C#\TempConverter (UI)\TempConverter (UI)\obj\Debug\TempConverter (UI).exe.manifest
+D:\Source Code\C#\TempConverter (UI)\TempConverter (UI)\obj\Debug\TempConverter (UI).application

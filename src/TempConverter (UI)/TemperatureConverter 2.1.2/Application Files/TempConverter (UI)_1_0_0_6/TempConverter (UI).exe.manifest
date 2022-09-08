@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TempConverter (UI).exe" version="1.0.0.6" publicKeyToken="a07a671910915dba" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TempConverter (UI)" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TempConverter (UI).exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TempConverter (UI).exe" size="11744">
+      <assemblyIdentity name="TempConverter (UI)" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>khHk5RWc2dTmi84I9GuEW+VRzZx4q9lXoMCQltsBaHA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="TempConverter (UI).exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-U51RHNR\Peter" issuerKeyHash="f1afc5a9b39b8b353453d9693504302c917b1ba8" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>epNu4V++uWefQdYWapmX49FBC6eo3iYDEVaOp8ZMQM4=</DigestValue></Reference></SignedInfo><SignatureValue>bUAQpoJR3PchwOkPS7+KdzcOthf0dlUuppObFTTTrVEcnIufcryMPNSau3OTQyHufemogX9hUBcOuxT/AciP29Ji32zmJe5pAVJLUv3lf8w8MyO8/Fb/5uiFb1IpsSZrR0b8MvzucZN1GciwPAki5l1YlbhZsR1cVjzWbK31kS0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>t9NVB+Q15UmXeP+EKUWhU8n9+u7ZUNat6Y6GJjZ8x2vECjNwur5vSfz3BgLb5097JVHH1yvQMohrhj0wYYe/IJCxuRtKa+ZZ/oeYLgtqAXoZXIlHeFq4QcDOmIl9n3W34vScDs4b7yHj0R9n4NBywX306pcFZGkzJpwDiqsc+N0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ce404cc6a78e56110326dea8a70b41d1e397996a16d6419f67b9be5fe16e937a" Description="" Url=""><as:assemblyIdentity name="TempConverter (UI).exe" version="1.0.0.6" publicKeyToken="a07a671910915dba" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-U51RHNR\Peter</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>tuAVExUjuylEH/JI7ylAWuM/CHZyVHkTzDKL70wZsiU=</DigestValue></Reference></SignedInfo><SignatureValue>oxPcfkMspARbmgH7KKhUe58+gqO9G7Zdc6BfkXpQQt4BGrt2dNsSzJ+SB3XuhgHJdqHvQ6dpc+BVnJ6LI8cMhMmD5eiKt8Beu5/R7oV0BAS0JYyfkGrtjQ62BU3E4A4rsrhjAL/ccYrgYJ5+w9hPD+p5Mn+nXEqsDT1BOdEz0l0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>t9NVB+Q15UmXeP+EKUWhU8n9+u7ZUNat6Y6GJjZ8x2vECjNwur5vSfz3BgLb5097JVHH1yvQMohrhj0wYYe/IJCxuRtKa+ZZ/oeYLgtqAXoZXIlHeFq4QcDOmIl9n3W34vScDs4b7yHj0R9n4NBywX306pcFZGkzJpwDiqsc+N0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQd7HWfvOUcJpBJ353Ou8mZzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFUANQAxAFIASABOAFIAXABQAGUAdABlAHIwHhcNMjAwODIzMTU0MjMyWhcNMjEwODIzMjE0MjMyWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFUANQAxAFIASABOAFIAXABQAGUAdABlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALfTVQfkNeVJl3j/hClFoVPJ/fru2VDWremOhiY2fMdrxAozcLq+b0n89wYC2+dPeyVRx9cr0DKIa4Y9MGGHvyCQsbkbSmvmWf6HmC4LagF6GVyJR3hauEHAzpiJfZ91t+L0nA7OG+8h49EfZ+DQcsF99OqXBWRpMyacA4qrHPjdAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAltptyyLK0Zv4JQYOAofAuATczAdkMbT39RMvi2TVVBU5zp8PmdMkBf2uGhWSfQx3AvXq7ANcEBS8x+GLjHlWKaP9xaIhJMDZASOYoI88XOa/uMLK1TfzcN7GvZBsvP9LKJvZ8+fNArtD5q/K3sCBg2JNGvPXJZmZcrNnDfaBg5c=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
